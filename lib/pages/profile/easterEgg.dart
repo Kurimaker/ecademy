@@ -48,13 +48,13 @@ class EasterEgg extends StatelessWidget {
       body: SafeArea(
         child: Stack(
           children: <Widget>[
-            Center(child: Image.asset("assets/images/easterEgg/wave.png")),
+            Center(child: Image.asset("assets/images/easterEgg/wave.gif")),
             Container(
-              margin: EdgeInsets.fromLTRB(80, 50, 0, 0),
+                margin: EdgeInsets.fromLTRB(80, 50, 0, 0),
                 child: Image.asset(
-              "assets/images/easterEgg/dab.png",
-              height: 150,
-            )),
+                  "assets/images/easterEgg/dab.png",
+                  height: 150,
+                )),
             Align(
               alignment: Alignment.bottomCenter,
               child: Container(
@@ -92,8 +92,8 @@ class EasterEgg extends StatelessWidget {
                                 style: TextStyle(fontSize: 25),
                               ),
                               Flexible(
-                                child:
-                                    Image.asset("assets/images/easterEgg/mail.png"),
+                                child: Image.asset(
+                                    "assets/images/easterEgg/mail.png"),
                               ),
                             ],
                           ),
@@ -111,7 +111,8 @@ class EasterEgg extends StatelessWidget {
                                 ),
                               ),
                               Flexible(
-                                child: Image.asset("assets/images/easterEgg/cc.png"),
+                                child: Image.asset(
+                                    "assets/images/easterEgg/cc.png"),
                               ),
                             ],
                           ),
@@ -156,9 +157,14 @@ class EasterEgg extends StatelessWidget {
               alignment: Alignment.topRight,
               child: Container(
                 margin: EdgeInsets.fromLTRB(0, 50, 0, 0),
-                child: Image.asset(
-                  "assets/images/easterEgg/skeleton.png",
-                  height: 150,
+                child: SizedBox(
+                  height: 200,
+                  child: FittedBox(
+                    child: Image.asset(
+                      "assets/images/easterEgg/skeleton.gif",
+                    ),
+                    fit: BoxFit.fill,
+                  ),
                 ),
               ),
             ),
@@ -216,7 +222,7 @@ class EasterEgg extends StatelessWidget {
             Align(
               alignment: Alignment.topLeft,
               child: Image.asset(
-                "assets/images/easterEgg/greenMan.png",
+                "assets/images/easterEgg/greenMan.gif",
                 height: 350,
               ),
             ),
