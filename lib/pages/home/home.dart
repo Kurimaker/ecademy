@@ -37,6 +37,7 @@ class _HomeState extends State<Home> {
               },
               onLongPress: () {
                 if (code == "1735") {
+                  code = "";
                   Navigator.pushNamed(context, "/profile/easterEgg");
                 } else {
                   code = "";
