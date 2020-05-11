@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "165513695661",
+    "firebase_url": "https://ecademy-efcbe.firebaseio.com",
+    "project_id": "ecademy-efcbe",
+    "storage_bucket": "ecademy-efcbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165513695661:android:dd4054fd1f3dc1153c9124",
+        "android_client_info": {
+          "package_name": "com.ecademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165513695661-nkuc46rpdvvdc04tnk54d74k0t3ll2o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6WSEiD8gWimbK5jr4l7yGoYeBxxQPP-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165513695661-nkuc46rpdvvdc04tnk54d74k0t3ll2o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
