@@ -88,7 +88,7 @@ class EasterEgg extends StatelessWidget {
                           child: Column(
                             children: <Widget>[
                               Text(
-                                "Resultat",
+                                "Mail",
                                 style: TextStyle(fontSize: 25),
                               ),
                               Flexible(
